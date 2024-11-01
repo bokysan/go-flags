@@ -63,8 +63,8 @@ var opts struct {
 	// Example of a boolean flag which can be disabled by using "--no-debug"
 	Debug bool `long:"debug" default:"true" disable-type:"no"`
 
-    // Example of a boolean flag which can be disabled by using "--d=false"
-    Color bool `short:"c" disable-type:"value"`
+	// Example of a boolean flag which can be disabled by using "--d=false"
+	Color bool `short:"c" disable-type:"value"`
 
 	// Example of a boolean flag which can be enabled  by using "--enable-fast-dns"
 	FastDns bool `long:"fast-dns" disable-type:"value"`
